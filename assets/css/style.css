@@ -31,3 +31,7 @@ header>:nth-child(2) {
 .container {
     min-height: 100vh;
 }
+
+footer {
+    text-align: center; 
+}
