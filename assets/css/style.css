@@ -21,7 +21,6 @@ header>:nth-child(1) {
 
 header>:nth-child(2) {
     font-size: 2rem;
-    margin-right: auto;
 }
 
 .history {
