@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+header>:nth-child(1) {
+    font-size: 2rem;
+    color: gray;
+}
+
+header>:nth-child(2) {
+    font-size: 2rem;
+    margin-right: auto;
+}
