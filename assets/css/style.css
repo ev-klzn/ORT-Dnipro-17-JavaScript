@@ -1,10 +1,13 @@
 a {
     text-decoration: none;
-    color: gray;
+    color: rgb(80, 79, 79);
 }
 
 body {
     font-size: 16px;
+    background-image: linear-gradient(to bottom, #e7eeee, #e3e9e9, #dfe4e4, #dcdfdf, #d8dada);
+    min-height: 100vh;
+    color: rgb(80, 79, 79);
 }
 
 header {
@@ -14,7 +17,6 @@ header {
 
 header>:nth-child(1) {
     font-size: 2rem;
-    color: gray;
 }
 
 header>:nth-child(2) {
