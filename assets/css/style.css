@@ -27,6 +27,10 @@ header>:nth-child(3) {
     text-align: justify;
 }
 
+.history-2 {
+    text-align: justify;
+}
+
 .container {
     min-height: 100vh;
 }
