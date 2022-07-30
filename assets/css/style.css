@@ -73,12 +73,14 @@ footer {
 
 @media (min-width:768px) {
     header>:nth-child(3) {
-        margin-right: auto;}
+        margin-right: auto;
+    }
 }
 
 @media (min-width:768px) {
     footer>:nth-child(even) {
         display: none;
+    }
 }
 
 @media (min-width:768px) {
@@ -87,7 +89,7 @@ footer {
         padding: 15px;
         display: flex;
         gap: 20px;}
-    }
+}
 
 .galery {
     grid-area: galery;
@@ -113,6 +115,5 @@ footer {
         grid-template-columns: auto auto;
         grid-template-rows: auto;
         grid-template-areas:    
-                                "galery history";
-    }
+                                "galery history";}
 }
