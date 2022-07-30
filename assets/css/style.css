@@ -87,23 +87,39 @@ footer {
         margin-right: auto;}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width:768px) {
     footer {
         font-size: 1.1rem;
         padding: 15px;
         }
+}
+
+.galery {
+    grid-area: galery;
+}
+
+.history {
+    grid-area: history;
+}
+
+#gridbox {
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:    "galery"
+                            "history";
+}
+
+@media (min-width:576px) {
+    #gridbox {
+        gap: 35px;
+        margin: 25px;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr;
+        grid-template-areas:    
+                                "galery history";
+    }
 }
 
 
