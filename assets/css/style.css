@@ -12,7 +12,6 @@ body {
 
 header {
     align-items: center;
-    text-align: center; 
 }
 
 header>:nth-child(1) {
@@ -44,6 +43,7 @@ footer {
 @media (min-width:768px) {
     header {
         font-size: 1.3rem;
+        padding: 10px;
         }
 }
 
@@ -102,6 +102,7 @@ footer {
 @media (min-width:768px) {
     footer {
         font-size: 1.1rem;
+        padding: 15px;
         }
 }
 
