@@ -44,7 +44,7 @@ footer {
 @media (min-width:768px) {
     header {
         font-size: 1.3rem;
-        gap: 15px;}
+        }
 }
 
 @media (min-width:768px) {
@@ -85,6 +85,24 @@ footer {
 @media (min-width:768px) {
     header>:nth-child(3) {
         margin-right: auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    footer {
+        font-size: 1.1rem;
+        }
 }
 
 
